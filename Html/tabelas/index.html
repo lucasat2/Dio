@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      table thead th {
+        background-color: black;
+        color: white;
+      }
+
+      table tfoot td {
+        background-color: lightgray;
+      }
+
+      table tbody tr:nth-child(even) td {
+
+        background-color: aqua;
+      }
+
+      table tbody tr:hover td {
+
+        background-color: rgb(47, 73, 81);
+        color: aliceblue;
+        cursor: pointer;
+      }
+    </style>
+
+
+  </head>
+
+  <body>
+    <table summary="Tabela de idades" border="1" width="250" align="center">
+      <thead>
+        <tr>
+          <th colspan="2">Minha tabela</th>
+        </tr>
+        <tr>
+          <th title="Nome completo">Nome</th>
+          <th>idade</th>
+        </tr>
+      </thead>
+      <tbody>
+        
+        <tr>
+          <td>Lucas</td>
+          <td>34</td>
+        </tr>
+        <tr>
+          <td>Afonso</td>
+          <td>44</td>
+        </tr>
+        <tr>
+          <td>Margot</td>
+          <td>99</td>
+        </tr>
+        <t>
+          <td>Tobias</td>
+          <td>27</td>
+          </tr>
+          <tr>
+            <td>Jane</td>
+            <td>33</td>
+          </tr>
+          <tr>
+            <td>Otto</td>
+            <td>55</td>
+          </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td>Total</td>
+          <td>6</td>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+
+</html>
