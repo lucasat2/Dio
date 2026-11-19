@@ -120,23 +120,23 @@ async function playRaceEngine(character1, character2) {
 
     // regra para perder pontos...
    
-    if (powerResult1 > powerResult2) {
-      console.log(`${character1.NOME} venceu o confronto!`);
+  if (powerResult1 > powerResult2) {
+    console.log(`${character1.NOME} venceu o confronto!`);
 
-      if (character2.PONTOS > 0) {
-        character2.PONTOS--;
-        console.log(`${character2.NOME} perdeu 1 ponto 🐢`);
-      }
-    } else if (powerResult2 > powerResult1) {
-      console.log(`${character2.NOME} venceu o confronto!`);
-
-      if (character1.PONTOS > 0) {
-        character1.PONTOS--;
-        console.log(`${character1.NOME} perdeu 1 ponto 🐢`);
-      }
-    } else {
-      console.log("Confronto empatado!");
+    if (character2.PONTOS > 0) {
+      character2.PONTOS--;
+      console.log(`${character2.NOME} perdeu 1 ponto 🐢`);
     }
+  } else if (powerResult2 > powerResult1) {
+    console.log(`${character2.NOME} venceu o confronto!`);
+
+    if (character1.PONTOS > 0) {
+      character1.PONTOS--;
+      console.log(`${character1.NOME} perdeu 1 ponto 🐢`);
+    }
+  } else {
+    console.log("Confronto empatado!");
+  }
   
 
   
