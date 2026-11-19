@@ -57,11 +57,13 @@ async function playRaceEngine(character1, character2) {
   if (block === "RETA") {
     totalTestSkill1 = diceResult1 + character1.VELOCIDADE;
     totalTestSkill2 = diceResult2 + character2.VELOCIDADE;
+
     await logRollResult(
       character1.NOME,
       "velocidade",
       diceResult1,
-      character1.VELOCIDADE)
+      character1.VELOCIDADE
+    )
     
     await logRollResult(
       character2.NOME,
