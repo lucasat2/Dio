@@ -27,7 +27,10 @@ async function getRandomBlock() {
     case ramdom < 0.33:
       result = "RETA"
       break;
-    case ramdom <0.66
+    case ramdom < 0.66:
+      result = "CURVA"
+      break;
+    case ra
   }
   
 }
