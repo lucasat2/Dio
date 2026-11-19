@@ -23,7 +23,9 @@ async function playRaceEngine(character1,character2) {
   // percorrer 5  rodadas
   
   for (let round = 1; round <= 5; round ++) {
-     console.log(`🏁Iniciando rodada ${}`)
+    console.log(`🏁Iniciando rodada ${round}`);
+
+    //
 }
 
 (async function main() {
