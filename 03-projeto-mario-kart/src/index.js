@@ -164,7 +164,9 @@ async function playRaceEngine(character1, character2) {
 async function declareWinner(character1, character2) {
   console.log("Resultado final: ")
   console.log(`${character1.NOME}: ${character1.PONTOS} ponto(s)`)
-  console.log(`${character1.NOME}: ${character1.PONTOS} ponto(s)`)
+  console.log(`${character2.NOME}: ${character2.PONTOS} ponto(s)`)
+
+  if (character1.PRONTO)
 }
 //FUNCAO PRINCIPAL PRA COMEÇAR O JOGO
 (async function main() {
