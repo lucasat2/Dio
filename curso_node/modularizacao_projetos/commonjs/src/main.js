@@ -4,7 +4,8 @@ import{getFullName} from "./services/product"
 async function main() {
    
     
-    const pgetFullName()
+    const produto = getFullName(1, "Mouse")
+    c
 }
 
 main()
