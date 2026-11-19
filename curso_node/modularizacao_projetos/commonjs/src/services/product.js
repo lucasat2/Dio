@@ -1,3 +1,3 @@
-async function getFu() {
+async function getFullName(codeId,productName) {
     
 }
