@@ -166,7 +166,9 @@ async function declareWinner(character1, character2) {
   console.log(`${character1.NOME}: ${character1.PONTOS} ponto(s)`)
   console.log(`${character2.NOME}: ${character2.PONTOS} ponto(s)`)
 
-  if (character1.PRONTO)
+  if (character1.PONTOS > character2.PONTOS) { 
+    console.log()
+  }
 }
 //FUNCAO PRINCIPAL PRA COMEÇAR O JOGO
 (async function main() {
