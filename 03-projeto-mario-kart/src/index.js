@@ -162,6 +162,7 @@ async function playRaceEngine(character1, character2) {
 //Declarar vencedor
  
 async function declareWinner(character1, character2) {
+  console.log("Resultado final: ")
   console.log(``)
 }
 //FUNCAO PRINCIPAL PRA COMEÇAR O JOGO
