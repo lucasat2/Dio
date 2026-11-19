@@ -58,7 +58,8 @@ async function playRaceEngine(character1, character2) {
   }
 
   if (block === "CONFRONTO") {
-    let powerResult = diceResult1 + character1.PODER
+    let powerResult1 = diceResult1 + character1.PODER
+    let powerResult2 = diceResult1 + character1.PODER
   }
 }
 
