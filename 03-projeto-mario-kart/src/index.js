@@ -103,6 +103,20 @@ async function playRaceEngine(character1, character2) {
     let powerResult2 = diceResult1 + character1.PODER;
 
     console.log(`${character1.NOME} confrontou com ${character2.NOME}! 🥊`)
+      
+    await logRollResult(
+      character1.NOME,
+      "manobrabilidade",
+      diceResult1,
+      character1.MANOBRABILIDADE
+    )
+    
+    await logRollResult(
+      character2.NOME,
+      "manobrabilidade",
+      diceResult2,
+      character2.MANOBRABILIDADE
+    )
     }
 
     // Verificando o vencedor ...
