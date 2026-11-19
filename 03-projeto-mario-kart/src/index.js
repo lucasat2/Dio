@@ -102,7 +102,7 @@ async function playRaceEngine(character1, character2) {
     let powerResult1 = diceResult1 + character1.PODER;
     let powerResult2 = diceResult1 + character1.PODER;
 
-    console.log()
+    console.log(`${characterN}`)
     }
 
     // Verificando o vencedor ...
