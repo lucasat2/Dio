@@ -24,7 +24,8 @@ async function getRandomBlock() {
   let result 
 
   switch (true) {
-     case ramdom < 0.33:
+    case ramdom < 0.33:
+      result = "RETA"
   }
   
 }
