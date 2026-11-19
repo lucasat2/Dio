@@ -125,9 +125,9 @@ async function playRaceEngine(character1, character2) {
      
     }
 
-      if (powerResult2 > powerResult1) {
-      if (character1.PONTOS > 0) {
-        character1.PONTOS--;
+    if (powerResult2 > powerResult1) {
+    if (character1.PONTOS > 0) {
+      character1.PONTOS--;
       }
      
     }
