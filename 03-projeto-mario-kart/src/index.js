@@ -20,8 +20,10 @@ function rollDice() {
 }
 
 async function playRaceEngine(character1,character2) {
-    
+  // percorrer 5  rodadas
   
+  for()
+
 }
 
 (async function main() {
