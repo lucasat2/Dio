@@ -20,7 +20,7 @@ function rollDice() {
 }
 
 async function getRandomBlock() {
-  
+  let ramdom = Math.ramdom()
   
 }
 
