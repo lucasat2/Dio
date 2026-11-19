@@ -1,3 +1,5 @@
+// PERSONAGENS
+
 const player1 = {
   NOME: "Mario",
   VELOCIDADE: 4,
@@ -14,7 +16,7 @@ const player2 = {
   PONTOS: 0,
 };
 
-//Rolar o dado ( + 1 é para não pa)
+//Rolar o dado ( + 1 é para não parar em 0)
 function rollDice() {
   return Math.floor(Math.random() * 6) + 1;
 }
