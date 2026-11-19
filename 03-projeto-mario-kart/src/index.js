@@ -118,7 +118,7 @@ async function playRaceEngine(character1, character2) {
       character2.PODER
     );
 
-    if powerResult
+    if(powerResult1 > powerResult2)
 
     }
 
