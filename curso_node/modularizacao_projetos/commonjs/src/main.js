@@ -1,5 +1,5 @@
 
-const{getFullName} = require("./services/product")
+const{getFullName} = require("./services/product.js")
 
 async function main() {
    
