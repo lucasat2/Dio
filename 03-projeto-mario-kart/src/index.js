@@ -133,6 +133,7 @@ async function playRaceEngine(character1, character2) {
 
 }
 
+//FUNCAO PRINCIPAL PRA COMEÇAR O JOGO
 (async function main() {
   console.log(
     `🏁🚨 Corrida entre ${player1.NOME} e ${player2.NOME} começando...\n`,
