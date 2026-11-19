@@ -24,7 +24,7 @@ async function getRandomBlock() {
   let result 
 
   switch (true) {
-     case result:
+     case ramdom < 0.33:
   }
   
 }
