@@ -4,7 +4,7 @@ import getFullName from "./services/product"
 async function main() {
    
     
-    const produto = getFullName(1, "Mouse")
+    const produto = await getFullName(1, "Mouse")
     return produto;
 }
 
