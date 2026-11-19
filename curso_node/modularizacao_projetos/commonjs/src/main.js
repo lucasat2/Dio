@@ -1,5 +1,5 @@
 
-
+import{getFullName} from "./servic"
 
 async function main() {
    
