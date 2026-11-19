@@ -122,7 +122,8 @@ async function playRaceEngine(character1, character2) {
    
 
     if (powerResult1 > powerResult2 && character2.PONTOS > 0) {
-       console.log(`${character1.NOME} venceu o confronto! ${character2.NOME} perdeu 1 ponto 🐢`)
+      console.log(
+        `${character1.NOME} venceu o confronto! ${character2.NOME} perdeu 1 ponto 🐢`)
       character2.PONTOS--;
      }
 
