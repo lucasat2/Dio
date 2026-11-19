@@ -31,7 +31,7 @@ function getRandomBlock() {
   }
 }
 
-async 
+async function logRollResult(charact)
 
 async function playRaceEngine(character1, character2) {
   // Percorrer 5 rodadas
