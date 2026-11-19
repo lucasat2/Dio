@@ -19,6 +19,10 @@ function rollDice() {
     return Math.floor(Math.random() * 6) + 1; // + 1 é para o dado não começar em 0.
 }
 
+asyfunction getRandomBlock() {
+  
+}
+
 async function playRaceEngine(character1, character2) {
   // percorrer 5  rodadas
   
