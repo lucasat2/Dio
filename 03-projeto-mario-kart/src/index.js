@@ -34,6 +34,8 @@ async function getRandomBlock() {
       result = "CONFRONTO"
       break;
   }
+  ]
+  return result;
   
 }
 
@@ -45,7 +47,7 @@ async function playRaceEngine(character1, character2) {
 
     //sortear bloco
 
-    let block = 
+    let block = a
 
   }
 }
