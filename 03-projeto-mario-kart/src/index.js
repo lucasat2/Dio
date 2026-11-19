@@ -14,49 +14,38 @@ const player2 = {
   PONTOS: 0,
 };
 
-
 function rollDice() {
-    return Math.floor(Math.random() * 6) + 1; // + 1 é para o dado não começar em 0.
+  return Math.floor(Math.random() * 6) + 1;
 }
 
-async function getRandomBlock() {
-  let ramdom = Math.ramdom()
-  let result 
+function getRandomBlock() {
+  const random = Math.random();
 
   switch (true) {
-    case ramdom < 0.33:
-      result = "RETA"
-      break;
-    case ramdom < 0.66:
-      result = "CURVA"
-      break;
+    case random < 0.33:
+      return "RETA";
+    case random < 0.66:
+      return "CURVA";
     default:
-      result = "CONFRONTO"
+      return "CONFRONTO";
   }
-  
-  return result;
-  
 }
 
 async function playRaceEngine(character1, character2) {
-  // percorrer 5  rodadas
-  
+  // Percorrer 5 rodadas
   for (let round = 1; round <= 5; round++) {
-    console.log(`🏁Iniciando rodada ${round}`);
+    console.log(`🏁 Iniciando rodada ${round}`);
 
-    //sortear bloco
-
-    let block = await getRandomBlock
-    console.log(`Bloco: ${block}`)
-
+    // Sortear bloco
+    const block = getRandomBlock();
+    console.log(`Bloco: ${block}`);
   }
 }
 
 (async function main() {
-    console.log(
-        `🏁🚨 Corrida entre ${player1.NOME} e ${player2.NOME} começando...\n`);
-    
-    await playRaceEngine(player1, player2);
+  console.log(
+    `🏁🚨 Corrida entre ${player1.NOME} e ${player2.NOME} começando...\n`,
+  );
 
+  await playRaceEngine(player1, player2);
 })();
-
