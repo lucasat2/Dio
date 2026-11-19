@@ -19,14 +19,15 @@ function rollDice() {
     return Math.floor(Math.random() * 6) + 1; // + 1 é para o dado não começar em 0.
 }
 
-async function playRaceEngine(character1,character2) {
+async function playRaceEngine(character1, character2) {
   // percorrer 5  rodadas
   
-  for (let round = 1; round <= 5; round ++) {
+  for (let round = 1; round <= 5; round++) {
     console.log(`🏁Iniciando rodada ${round}`);
 
     //sortear bloco
-    
+
+  }
 }
 
 (async function main() {
