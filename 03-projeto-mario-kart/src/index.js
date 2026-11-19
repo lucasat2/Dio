@@ -40,9 +40,12 @@ async function playRaceEngine(character1, character2) {
     const block = getRandomBlock();
     console.log(`Bloco: ${block}`);
   }
-  
+
   let diceResult1 = await rollDice();
   let diceResult2 = await rollDice();
+
+  //teste de habilidade
+  
 }
 
 (async function main() {
