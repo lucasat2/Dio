@@ -100,7 +100,7 @@ async function playRaceEngine(character1, character2) {
 
   if (block === "CONFRONTO") {
     let powerResult1 = diceResult1 + character1.PODER;
-    let powerResult2 = diceResult1 + character1.PODER;
+    let powerResult2 = diceResult2 + character2.PODER;
 
     console.log(`${character1.NOME} confrontou com ${character2.NOME}! 🥊`)
       
