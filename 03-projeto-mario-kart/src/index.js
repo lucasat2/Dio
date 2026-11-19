@@ -46,7 +46,7 @@ async function playRaceEngine(character1, character2) {
 
   //teste de habilidade
   let testeSkill1 = 0
-  let testeSkill1 = 0
+  let testeSkill2 = 0
 }
 
 (async function main() {
