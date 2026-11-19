@@ -159,6 +159,7 @@ async function playRaceEngine(character1, character2) {
 
 }
 
+ //Declarar
 //FUNCAO PRINCIPAL PRA COMEÇAR O JOGO
 (async function main() {
   console.log(
