@@ -31,6 +31,7 @@ async function getRandomBlock() {
       result = "CURVA"
       break;
     default:
+      result = "c"
       break;
   }
   
