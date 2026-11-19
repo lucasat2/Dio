@@ -49,6 +49,7 @@ async function playRaceEngine(character1, character2) {
   let TotalTestSkill2 = 0;
 
   if (block === "RETA") {
+    
   }
   if (block === "CURVA") {
   }
