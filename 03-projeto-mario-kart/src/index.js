@@ -24,7 +24,7 @@ async function getRandomBlock() {
   let result 
 
   switch (result) {
-    
+     case result:
   }
   
 }
