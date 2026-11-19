@@ -48,10 +48,10 @@ async function playRaceEngine(character1, character2) {
   let TotalTestSkill1 = 0
   let TotalTestSkill2 = 0
 
-  if (block = "RETA") {
+  if (block == "RETA") {
     
   }
-  if (block = "CURVA") {
+  if (block == "CURVA") {
 
   }
   if (block = "CONFRONTO") {
