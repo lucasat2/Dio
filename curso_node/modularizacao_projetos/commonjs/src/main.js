@@ -1,5 +1,5 @@
 
-const
+const{getFullName} = require("./services/")
 
 async function main() {
    
