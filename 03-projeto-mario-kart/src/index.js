@@ -21,7 +21,7 @@ function rollDice() {
   return Math.floor(Math.random() * 6) + 1;
 }
 
-
+// Escolher entre R
 function getRandomBlock() {
   const random = Math.random();
 
