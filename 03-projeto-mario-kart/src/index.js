@@ -118,7 +118,8 @@ async function playRaceEngine(character1, character2) {
     console.log(`${character1.NOME} marcou um ponto!`)
     character1.PONTOS ++
   } else if (totalTestSkill2 > totalTestSkill1) {
-    console.
+     console.log(`${character1.NOME} marcou um ponto!`)
+    character1.PONTOS ++
     
   }
   }
