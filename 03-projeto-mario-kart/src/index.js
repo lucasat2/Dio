@@ -181,4 +181,5 @@ async function declareWinner(character1, character2) {
   );
 
   await playRaceEngine(player1, player2);
+  await declareWinner(player1, player2);
 })();
