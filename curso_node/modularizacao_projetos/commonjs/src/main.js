@@ -5,7 +5,7 @@ async function main() {
    
     
     const produto = await getFullName(1, "Mouse")
-    return produto;
+    console.log(produto);
 }
 
 main()
