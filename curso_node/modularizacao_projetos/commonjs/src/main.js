@@ -1,5 +1,5 @@
 
-import getFullName from "./services/product"
+const
 
 async function main() {
    
