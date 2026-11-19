@@ -69,12 +69,15 @@ async function playRaceEngine(character1, character2) {
       character2.NOME,
       "velocidade",
       diceResult2,
-      character2.VELOCIDADE)
+      character2.VELOCIDADE
+    )
   }
 
   if (block === "CURVA") {
     totalTestSkill1 = diceResult1 + character1.MANOBRABILIDADE;
     totalTestSkill2 = diceResult2 + character2.MANOBRABILIDADE;
+
+    
   }
 
   if (block === "CONFRONTO") {
