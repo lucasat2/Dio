@@ -100,16 +100,16 @@ async function playRaceEngine(character1, character2) {
     
     await logRollResult(
       character1.NOME,
-      "velocidade",
+      "poder",
       diceResult1,
-      character1.VELOCIDADE
+      character1.PODER
     )
     
     await logRollResult(
       character2.NOME,
-      "velocidade",
+      "poder",
       diceResult2,
-      character2.VELOCIDADE
+      character2.PODER
     )
   }
 }
