@@ -34,7 +34,7 @@ function getRandomBlock() {
 // FUNCAO GENERICA PARA ser chamada nos ifs para evitar repetir console.log em todos eles 
 
 async function logRollResult(characterName, block, diceResult, attribute) {
-  console.log(`${characterName} 🎲 rolou um dado de ${block} ${diceResult} + ${attribute} = ${diceResult + }`);
+  console.log(`${characterName} 🎲 rolou um dado de ${block} ${diceResult} + ${attribute} = ${diceResult + attribute}`);
 
 }
 
