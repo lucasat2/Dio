@@ -2,4 +2,4 @@ async function getFullName(codeId,productName) {
     return codeId + "---" + productName;
 }
 
-modu;
+module.exports = {getFullName};
