@@ -51,7 +51,13 @@ async function playRaceEngine(character1, character2) {
   if (block = "RETA") {
     
   }
-    )
+  if (block = "RETA") {
+
+  }
+  if (block = "RETA") {
+
+  }
+    
 
 }
 
