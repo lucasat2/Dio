@@ -125,6 +125,10 @@ async function playRaceEngine(character1, character2) {
       character2.PONTOS--;
      }
 
+    if (powerResult2 > powerResult2 && character2.PONTOS > 0) {
+      character2.PONTOS--;
+     }
+
   
    
     console.log(powerResult1 === powerResult2 ? "Confronto empatado": "")
