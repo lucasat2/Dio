@@ -53,6 +53,8 @@ async function playRaceEngine(character1, character2) {
     totalTestSkill2 = diceResult2 + character2.VELOCIDADE;
 
     console.log(`${player1.NOME}🎲 rolou um dado de ${block} ${diceResult1}`);
+
+    console.log(`${player2.NOME}🎲 rolou um dado de ${block} ${diceResult1}`);
   }
 
   if (block === "CURVA") {
