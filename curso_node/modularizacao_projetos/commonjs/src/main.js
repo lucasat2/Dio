@@ -1,5 +1,5 @@
 
-import{getFullName} from "./services/product"
+importgetFullName from "./services/product"
 
 async function main() {
    
