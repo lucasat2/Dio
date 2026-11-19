@@ -130,7 +130,6 @@ async function playRaceEngine(character1, character2) {
    
     console.log(powerResult1 === powerResult2 ? "Confronto empatado": "")
 
-
     }
 
     // regra para marcar pontos...
