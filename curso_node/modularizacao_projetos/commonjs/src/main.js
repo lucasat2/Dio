@@ -1,3 +1,7 @@
 async function main() {
-   x
+   
+    console.log("Ola meu nome é system")
 }
+
+main
+
