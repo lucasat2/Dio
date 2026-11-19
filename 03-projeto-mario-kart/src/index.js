@@ -113,7 +113,9 @@ async function playRaceEngine(character1, character2) {
       character2.PODER
     )
     }
-    if(totalT)
+    if (totalTestSkill > totalTestSkill2) {
+      
+    }
   }
 
 }
