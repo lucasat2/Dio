@@ -118,6 +118,8 @@ async function playRaceEngine(character1, character2) {
       character2.PODER
     );
 
+    // regra para perder pontos...
+    
     if (powerResult1 > powerResult2) {
       if (character2.PONTOS > 0) {
         character2.PONTOS--;
