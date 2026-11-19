@@ -80,7 +80,7 @@ async function playRaceEngine(character1, character2) {
     
     await logRollResult(
       character1.NOME,
-      "curva",
+      "man",
       diceResult1,
       character1.CURVA
     )
