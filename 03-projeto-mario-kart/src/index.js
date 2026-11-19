@@ -30,7 +30,8 @@ async function getRandomBlock() {
     case ramdom < 0.66:
       result = "CURVA"
       break;
-    case ra
+    default;
+      break;
   }
   
 }
