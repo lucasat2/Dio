@@ -54,11 +54,11 @@ async function playRaceEngine(character1, character2) {
   }
   if (block === "CURVA") {
     totalTestSkill1 = diceResult1 + character1.MANOBRABILIDADE;
-    totalTestSkill2 = diceResult + character2.MANOBRABILIDADE;
+    totalTestSkill2 = diceResult2 + character2.MANOBRABILIDADE;
   }
 
   if (block === "CONFRONTO") {
-    let powerResult = diceRe
+    let powerResult = diceResult1 + character1.PODER
   }
 }
 
