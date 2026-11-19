@@ -27,6 +27,8 @@ async function playRaceEngine(character1, character2) {
 
     //sortear bloco
 
+    let 
+
   }
 }
 
