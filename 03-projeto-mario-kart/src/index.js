@@ -47,6 +47,9 @@ async function playRaceEngine(character1, character2) {
   //teste de habilidade
   let TotalTestSkill1 = 0
   let TotalTestSkill2 = 0
+
+    if(blo)
+
 }
 
 (async function main() {
