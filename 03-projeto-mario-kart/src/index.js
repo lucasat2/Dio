@@ -119,7 +119,7 @@ async function playRaceEngine(character1, character2) {
     );
 
     // regra para perder pontos...
-    
+    // ifs ternarios...
 
     character2.PONTOS -=
       powerResult1 > powerResult2 && character2.PONTOS > 0 ? 1 : 0
