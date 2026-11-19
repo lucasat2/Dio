@@ -135,7 +135,7 @@ async function playRaceEngine(character1, character2) {
     }
 
     if (powerResult1 === powerResult2) {
-      console.log("Confronto empatado");
+      console.log("Confronto empatado, nenhum ponto perdido");
     }
 
     }
