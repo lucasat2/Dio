@@ -109,14 +109,15 @@ async function playRaceEngine(character1, character2) {
       "poder",
       diceResult1,
       character1.PODER
-    )
+    );
     
     await logRollResult(
       character2.NOME,
       "poder",
       diceResult2,
       character2.PODER
-    )
+    );
+    
     }
 
     // Verificando o vencedor ...
