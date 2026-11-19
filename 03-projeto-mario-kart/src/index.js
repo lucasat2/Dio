@@ -40,6 +40,7 @@ async function playRaceEngine(character1, character2) {
     const block = getRandomBlock();
     console.log(`Bloco: ${block}`);
   }
+  let diceResult1 
 }
 
 (async function main() {
