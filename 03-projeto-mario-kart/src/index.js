@@ -117,7 +117,9 @@ async function playRaceEngine(character1, character2) {
       diceResult2,
       character2.PODER
     );
-    
+
+    if powerResult
+
     }
 
     // Verificando o vencedor ...
