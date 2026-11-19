@@ -36,7 +36,6 @@ function getRandomBlock() {
 async function logRollResult(characterName, block, diceResult, attribute) {
   console.log(`${characterName} 🎲 rolou um dado de ${block} ${diceResult}`);
 
-  console.log(`${characterName} 🎲 rolou um dado de ${block} ${diceResult}`);
 }
 
 async function playRaceEngine(character1, character2) {
