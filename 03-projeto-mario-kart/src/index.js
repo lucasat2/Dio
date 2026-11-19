@@ -14,6 +14,7 @@ const player2 = {
   PONTOS: 0,
 };
 
+//Rolar o dado ( + 1 é para não pa)
 function rollDice() {
   return Math.floor(Math.random() * 6) + 1;
 }
