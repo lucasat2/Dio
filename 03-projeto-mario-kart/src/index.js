@@ -33,6 +33,7 @@ function getRandomBlock() {
 
 async function logRollResult(characterName, block, diceResult, attribute) {
   
+    
 }
 
 async function playRaceEngine(character1, character2) {
