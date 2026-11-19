@@ -31,6 +31,8 @@ function getRandomBlock() {
   }
 }
 
+async 
+
 async function playRaceEngine(character1, character2) {
   // Percorrer 5 rodadas
   for (let round = 1; round <= 5; round++) {
