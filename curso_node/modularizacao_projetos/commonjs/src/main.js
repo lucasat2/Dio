@@ -5,7 +5,7 @@ async function main() {
    
     
     const produto = getFullName(1, "Mouse")
-    c
+    return pro
 }
 
 main()
