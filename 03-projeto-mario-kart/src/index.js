@@ -23,7 +23,7 @@ async function getRandomBlock() {
   let ramdom = Math.ramdom()
   let result 
 
-  switch (result) {
+  switch (true) {
      case result:
   }
   
