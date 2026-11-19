@@ -32,7 +32,6 @@ async function getRandomBlock() {
       break;
     default:
       result = "CONFRONTO"
-      break;
   }
   
   return result;
