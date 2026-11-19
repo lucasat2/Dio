@@ -47,7 +47,7 @@ async function playRaceEngine(character1, character2) {
 
     //sortear bloco
 
-    let block = a
+    let block = await getRandomBlock
 
   }
 }
