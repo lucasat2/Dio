@@ -33,7 +33,7 @@ function getRandomBlock() {
 
 async function logRollResult(characterName, block, diceResult, attribute) {
   
-    console.log(`${player1.No}`)
+    console.log(`${player1.NOME} `)
 }
 
 async function playRaceEngine(character1, character2) {
