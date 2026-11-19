@@ -48,6 +48,7 @@ async function playRaceEngine(character1, character2) {
     console.log(`Bloco: ${block}`);
   }
 
+   //rolar os dados
   let diceResult1 = await rollDice();
   let diceResult2 = await rollDice();
 
